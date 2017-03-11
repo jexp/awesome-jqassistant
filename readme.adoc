@@ -1,7 +1,6 @@
 = Awesome jQAssistant (WIP)
 :version: 1.2.0
-
-image::http://jqassistant.de/wp-content/uploads/2015/03/jQA_logo_wordpress.png[float=right,width=300]
+image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[link=https://github.com/sindresorhus/awesome^,Awesome,float=left]
 
 http://jqassistant.org/[jQAssistant] is an extensible, open-source software analytics tool.
 
@@ -12,6 +11,8 @@ Then it applies *your own* rules to it to provide you new insights and informati
 It uses the open source Graph Database http://neo4j.com/developer[Neo4j] and the graph query language http://neo4j.com/developer/cypher[Cypher] to express *rules, concepts, constraints and reports*
 
 The latest Release is {version} - https://jqassistant.org/wp-content/uploads/2017/01/commandline-{version}.zip[Download Here], http://buschmais.github.io/jqassistant/doc/{version}/release-notes.html[Release Notes] and http://buschmais.github.io/jqassistant/doc/{version}/[Documentation]
+
+image::http://jqassistant.de/wp-content/uploads/2015/03/jQA_logo_wordpress.png[float=right,width=300,link=http://jqassistant.org^]
 
 == Get Started
 
