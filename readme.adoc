@@ -1,4 +1,4 @@
-= Awesome jQAssistant
+= Awesome jQAssistant (WIP)
 :version: 1.2.0
 
 image::http://jqassistant.de/wp-content/uploads/2015/03/jQA_logo_wordpress.png[float=right,width=300]
@@ -9,7 +9,9 @@ jQAssistant scans many different parts of a software project (code, config, data
 
 Then it applies *your own* rules to it to provide you new insights and information about your project.
 
-It uses the open source Graph Database http://neo4j.com/developer/cypher[Neo4j](http://neo4j.com/developer) and the graph query language [Cypher] to express *rules, concepts, constraints and reports*
+It uses the open source Graph Database http://neo4j.com/developer[Neo4j] and the graph query language http://neo4j.com/developer/cypher[Cypher] to express *rules, concepts, constraints and reports*
+
+The latest Release is {version} - https://jqassistant.org/wp-content/uploads/2017/01/commandline-{version}.zip[Download Here], http://buschmais.github.io/jqassistant/doc/{version}/release-notes.html[Release Notes] and http://buschmais.github.io/jqassistant/doc/{version}/[Documentation]
 
 == Get Started
 
@@ -18,19 +20,22 @@ Here is how you get started:
 // TODO don't manage downloads via wordpress, but github releases !!
 1. https://jqassistant.org/wp-content/uploads/2017/01/commandline-{version}.zip[Download and Unzip]
 
-2. Scan
+2. Scan: `bin/jqassistant.sh server -file /path/to/project`
 
-`bin/jqassistant.sh server -file /path/to/project`
+3. Run the server: `bin/jqassistant.sh server`
 
-3. Run the server
+Execute `:play http://guides.neo4j.com/jqa` in the browser commandline for a step-by-step guide.
 
-`bin/jqassistant.sh server`
+// todo updated image with guide
+image::http://jqassistant.org/wp-content/uploads/2014/10/Demo.png[]
+
+////
+=== Docker
 
 If you want even an easier way, use the Docker image:
 
 `docker run -t -v /path/to/project:/scan -p 7474:7474 jexp/jqassistant`
-
-The latest Release is {version}  - http://buschmais.github.io/jqassistant/doc/{version}/[download here](https://jqassistant.org/wp-content/uploads/2017/01/commandline-{version}.zip), [Release Notes](http://buschmais.github.io/jqassistant/doc/{version}/release-notes.html) and [Documentation]
+////
 
 == Get Help
 
@@ -53,9 +58,9 @@ java, maven, pom, db
 
 jQAssistant allows http://buschmais.github.io/jqassistant/doc/{version}/=_maven_2_repository[scanning full Maven repositories], i.e. full resolution of dependencies, plugins, etc. including filtering of artifacts for inclusion.
 
-jQAssistant contains a report plugin that allows exporting the result of cypher queries as GraphML documents which can then be used for visualization or analysis in tools like the http://gephi.github.io/[yEd graph editor](https://www.yworks.com/en/products/yfiles/yed/) or the [Gephi graph visualizer].
+jQAssistant contains a report plugin that allows exporting the result of cypher queries as GraphML documents which can then be used for visualization or analysis in tools like the https://www.yworks.com/en/products/yfiles/yed/[yEd graph editor] or the http://gephi.github.io/[Gephi graph visualizer].
 
-A http://buschmais.github.io/jqassistant/doc/{version}/=_maven_2_repository[YAML Scanner] plugin that automatically picks up YAML files (*.yaml) and stores their structure in the database.
+A [YAML Scanner] plugin that automatically picks up YAML files (*.yaml) and stores their structure in the database.
 
 
 == Model and Queries
