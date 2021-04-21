@@ -29,10 +29,9 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | <<Kontext E GmbH>>
 
 | Dashboard
-| Bundles the jQAssistant dashboard as a plugin.
+| Bundles the <<jQAssistant Dashboard>> as a plugin.
 | https://github.com/jqassistant-contrib/jqassistant-dashboard-plugin[Homepage^]
 | <<jQAssistant Contrib>>
-
 
 | Docker
 | Provides a scanner for Docker registries gathering information about repositories, tags, manifests and layers.
@@ -135,7 +134,7 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 
 == Tool Integration And Visualization
 
-=== Dashboard
+=== jQAssistant Dashboard
 
 === SonarQube
 
