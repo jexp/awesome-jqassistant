@@ -5,7 +5,7 @@
 This site lists extensions for jQAssistant which have been created and are maintained by the
 jQAsssistant community.
 
-TIP: If want your own extension listed on this page we invite you to create a pull request for to the https://github.com/jQAssistant/awesome-jqassistant/[Awesome jQAssistant!^] repository!
+TIP: If want your own extension listed on this page we invite you to create a pull request for the https://github.com/jQAssistant/awesome-jqassistant/[Awesome jQAssistant!^] repository!
 
 == Plugins
 
@@ -30,7 +30,7 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | <<Kontext E GmbH>>
 
 | Dashboard
-| Bundles the <<jQAssistant Dashboard>> as a plugin.
+| Bundles the jQAssistant Dashboard (see <<Visualizations>>) as plugin.
 | https://github.com/jqassistant-contrib/jqassistant-dashboard-plugin[Homepage^]
 | <<jQAssistant Contrib>>
 
