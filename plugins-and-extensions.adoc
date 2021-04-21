@@ -4,85 +4,134 @@
 
 This site lists plugins and extensions for jQAssistant that have been created by the community.
 
+TIP: If want your own plugin listed on this page we invite you to create a pull request for to the https://github.com/jQAssistant/awesome-jqassistant/[Awesome jQAssistant!^] repository!
+
 == Plugins
 
-=== Asciidoc
+[options=header]
+|===
+|Name      | Description | Links | Maintainer
 
-Description:: Provides a scanner for Asciidoc files.
-Project Site:: https://github.com/kontext-e/jqassistant-plugins
-Documentation:: https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/asciidoc/asciidoc.adoc
-Organization:: <<Kontext E GmbH>>
+| Asciidoc
+| Provides a scanner for Asciidoc files.
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^],
+https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/asciidoc/asciidoc.adoc[Documentation^]
+| <<Kontext E GmbH>>
 
-=== APOC
+| APOC
+| Provides APOC procedures for the embedded Neo4j database.
+| https://github.com/jqassistant-contrib/jqassistant-apoc-plugin[Homepage]
+| <<jQAssistant Contrib>>
 
-Description:: Provides APOC procedures for the embedded Neo4j database.
-Project Site:: https://github.com/jqassistant-contrib/jqassistant-apoc-plugin
-Organization:: <<jQAssistant Contrib>>
+| Checkstyle
+| Provides a scanner for Checkstyle reports.
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/checkstyle/src/main/asciidoc/checkstyle.adoc[Documentation^]
+| <<Kontext E GmbH>>
 
-=== Checkstyle
-
-Description:: Provides a scanner for Checkstyle reports.
-Project Site:: https://github.com/kontext-e/jqassistant-plugins
-Documentation:: https://github.com/kontext-e/jqassistant-plugins/blob/master/checkstyle/src/main/asciidoc/checkstyle.adoc
-Organization:: <<Kontext E GmbH>>
-
-=== Dashboard
-
-Description:: Bundles the jQAssistant dashboard as a plugin.
-Project Site:: https://github.com/jqassistant-contrib/jqassistant-dashboard-plugin
-Organization:: <<jQAssistant Contrib>>
-
-=== Docker
-
-Description:: Provides a scanner for Docker registries gathering information about repositories, tags, manifests and layers.
-Project Site:: https://github.com/jqassistant-contrib/jqassistant-dashboard-plugin
-Organization:: <<jQAssistant Contrib>>
-
-=== Excel
-
-Description:: Provides a scanner for Excel files.
-Project Site:: https://github.com/kontext-e/jqassistant-plugins
-Documentation:: https://github.com/kontext-e/jqassistant-plugins/blob/master/excel/src/main/asciidoc/excel.adoc
-Organization:: <<Kontext E GmbH>>
-
-=== Graph Algorithms
-
-Description:: Provides Graph Algorithms for the embedded Neo4j database.
-Project Site:: https://github.com/jqassistant-contrib/jqassistant-apoc-plugin
-Organization:: <<jQAssistant Contrib>>
+| Dashboard
+| Bundles the jQAssistant dashboard as a plugin.
+| https://github.com/jqassistant-contrib/jqassistant-dashboard-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 
-=== Git
+| Docker
+| Provides a scanner for Docker registries gathering information about repositories, tags, manifests and layers.
+| https://github.com/jqassistant-contrib/jqassistant-dashboard-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
-=== GitHub Issues
+| Excel
+| Provides a scanner for Excel files.
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/excel/src/main/asciidoc/excel.adoc[Documentation^]
+| <<Kontext E GmbH>>
 
-=== HCL
+| Graph Algorithms
+| Provides Graph Algorithms for the embedded Neo4j database.
+| https://github.com/jqassistant-contrib/jqassistant-apoc-plugin[Documentation^]
+| <<jQAssistant Contrib>>
 
-=== JaCoCo
+| Git
+|
+|
+|
 
-=== Java DDD
+| GitHub Issues
+|
+|
+|
 
-=== Java Metrics
+| Hashi Configuration Language (HCL)
+|
+|
+|
 
-=== JavaParser
+| JaCoCo
+|
+|
+|
 
-=== JIRA Issues
+| Java DDD
+|
+|
+|
 
-=== jMolecules
+| Java Metrics
+|
+|
+|
 
-=== Kieker
+| Java Parser
+|
+|
+|
 
-=== PlantUML
+| JIRA Issues
+|
+|
+|
 
-=== PlantUML Rule
+| jMolecules
+|
+|
+|
 
-=== PMD
+| Kieker
+|
+|
+|
 
-=== Test Impact Analysis
+| PlantUML
+|
+|
+|
 
-=== Wordcloud Report
+| PlantUML Rule
+|
+|
+|
 
-=== UML
+
+| PMD
+|
+|
+|
+
+
+| Test Impact Analysis
+|
+|
+|
+
+| Wordcloud Report
+|
+|
+|
+
+| UML
+|
+|
+|
+
+|===
 
 == Tool Integration And Visualization
 
@@ -90,9 +139,7 @@ Organization:: <<jQAssistant Contrib>>
 
 === SonarQube
 
-=== Dashboard
-
-== Community Member
+== Community Members
 
 === jQAssistant Contrib
 
