@@ -10,7 +10,7 @@ TIP: If want your own plugin listed on this page we invite you to create a pull 
 
 [options=header]
 |===
-|Name      | Description | Links | Maintainer
+|Name      | Description | Links | Organization
 
 | Asciidoc
 | Provides a scanner for Asciidoc files.
@@ -19,7 +19,7 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | <<Kontext E GmbH>>
 
 | APOC
-| Provides APOC procedures for the embedded Neo4j database.
+| Provides https://github.com/neo4j-contrib/neo4j-apoc-procedures[APOC^] procedures for the embedded Neo4j database.
 | https://github.com/jqassistant-contrib/jqassistant-apoc-plugin[Homepage]
 | <<jQAssistant Contrib>>
 
@@ -44,101 +44,106 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | <<Kontext E GmbH>>
 
 | Graph Algorithms
-| Provides Graph Algorithms for the embedded Neo4j database.
+| Provides https://github.com/neo4j-contrib/neo4j-graph-algorithms[Graph Algorithms^] for the embedded Neo4j database.
 | https://github.com/jqassistant-contrib/jqassistant-apoc-plugin[Documentation^]
 | <<jQAssistant Contrib>>
 
 | Git
-|
-|
-|
+| Provides a scanner for local Git repositories.
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/git/src/main/asciidoc/git.adoc[Documentation^]
+| <<Kontext E GmbH>>
 
 | GitHub Issues
-|
-|
-|
+| Provide a scanner for GitHub issues.
+| https://github.com/softvis-research/jqa-githubissues-plugin[Homepage^]
+| <<Softvis Research>>
 
 | Hashi Configuration Language (HCL)
-|
-|
-|
+| Provides a scanner and rules for analyzing the https://www.terraform.io[HCL^] language.
+| https://github.com/jqassistant-contrib/jqassistant-hcl-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 | JaCoCo
-|
-|
-|
+| Provides a scanner for JaCoCo test coverage reports.
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/jacoco/src/main/asciidoc/jacoco.adoc[Documentation^]
+| <<Kontext E GmbH>>
 
 | Java DDD
-|
-|
-|
+| Provides annotations and rules to map DDD language elements onto the code and to enrich this information in the graph in order to apply additional, DDD-general as well as project specific, concepts and constraints.
+| https://github.com/jqassistant-contrib/jqassistant-java-ddd-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 | Java Metrics
-|
-|
-|
-
-| Java Parser
-|
-|
-|
+| Provides rules for measuring some widely known software metrics.
+| https://github.com/jqassistant-contrib/jqassistant-java-metrics-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 | JIRA Issues
-|
-|
-|
+| Provides a scanner for JIRA issues.
+| https://github.com/softvis-research/jqa-jira-plugin[Homepage^]
+| <<Softvis Research>>
 
 | jMolecules
-|
-|
-|
+| Provides concepts to map architectural language elements from the https://github.com/xmolecules/jmolecules[jMolecules project^] to the graph representation build in order to gain new insights, create additional concepts and constraints.
+| https://github.com/jqassistant-contrib/jqassistant-jmolecules-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 | Kieker
-|
-|
-|
+| Provides a scanner for https://github.com/kieker-monitoring/kieker[Kieker^] stack traces.
+| https://github.com/softvis-research/jqa-kieker-plugin[Homepage^]
+| <<Softvis Research>>
 
 | PlantUML
-|
-|
+| Provides a scanner for PlantUML diagrams files (.puml and .adoc).
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/plantuml/src/main/asciidoc/plantuml.adoc[Documentation^]
 |
 
 | PlantUML Rule
-|
-|
-|
-
+| Allows embedding PlantUML diagrams (e.g. component diagrams) within Asciidoc documents to be interpreted as rules.
+| https://github.com/jqassistant-contrib/jqassistant-plantuml-rule-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 | PMD
-|
-|
-|
+| Provides a scanner for PMD report files
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/pmd/src/main/asciidoc/pmd.adoc[Documentation^]
+| <<Kontext E GmbH>>
 
+| SpotBugs/FindBugs
+| Provides a scanner for SpotBugs/FindBugs report files
+| https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/spotbugs/src/main/asciidoc/spotbugs.adoc[Documentation^]
+| <<Kontext E GmbH>>
 
 | Test Impact Analysis
-|
-|
-|
+| Provides rules and a report plugin to perform test impact analysis.
+| https://github.com/jqassistant-contrib/jqassistant-test-impact-analysis-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 | Wordcloud Report
-|
-|
-|
-
-| UML
-|
-|
-|
+| Provides a report plugin to create word clouds from rule results.
+| https://github.com/jqassistant-contrib/jqassistant-wordcloud-report-plugin[Homepage^]
+| <<jQAssistant Contrib>>
 
 |===
 
-== Tool Integration And Visualization
+== Tool Integration & Visualization
 
-=== jQAssistant Dashboard
+[options=header]
+|===
+|Name      | Description | Links | Organization
 
-=== SonarQube
+| jQAssistant Dashboard
+| An extensible dashboard for interactive visualization of software structures and metrics.
+| https://github.com/softvis-research/jqa-dashboard[Homepage^]
+| <<Softvis Research>>
 
-== Community Members
+| SonarQube Plugin
+| Provides an integration of jQAssistant and SonarQube for reporting constraint violations as issues.
+| https://github.com/jqassistant-contrib/sonar-jqassistant-plugin[Homepage^]
+| <<jQAssistant Contrib>>
+
+|===
+
+== Organizations
 
 === jQAssistant Contrib
 
