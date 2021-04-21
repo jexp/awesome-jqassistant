@@ -1,10 +1,11 @@
 :toc: left
 :toclevels: 4
-= Plugins And Extensions
+= jQAssistant Extension Catalog
 
-This site lists plugins and extensions for jQAssistant that have been created by the community.
+This site lists extensions for jQAssistant which have been created and are maintained by the
+jQAsssistant community.
 
-TIP: If want your own plugin listed on this page we invite you to create a pull request for to the https://github.com/jQAssistant/awesome-jqassistant/[Awesome jQAssistant!^] repository!
+TIP: If want your own extension listed on this page we invite you to create a pull request for to the https://github.com/jQAssistant/awesome-jqassistant/[Awesome jQAssistant!^] repository!
 
 == Plugins
 
@@ -96,7 +97,7 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | PlantUML
 | Provides a scanner for PlantUML diagrams files (.puml and .adoc).
 | https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/plantuml/src/main/asciidoc/plantuml.adoc[Documentation^]
-|
+| <<Kontext E GmbH>>
 
 | PlantUML Rule
 | Allows embedding PlantUML diagrams (e.g. component diagrams) within Asciidoc documents to be interpreted as rules.
@@ -125,7 +126,20 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 
 |===
 
-== Tool Integration & Visualization
+== Tool Integrations
+
+[options=header]
+|===
+|Name      | Description | Links | Organization
+
+| SonarQube Plugin
+| Provides an integration of jQAssistant and SonarQube for reporting constraint violations as issues.
+| https://github.com/jqassistant-contrib/sonar-jqassistant-plugin[Homepage^]
+| <<jQAssistant Contrib>>
+
+|===
+
+== Visualizations
 
 [options=header]
 |===
@@ -136,24 +150,21 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | https://github.com/softvis-research/jqa-dashboard[Homepage^]
 | <<Softvis Research>>
 
-| SonarQube Plugin
-| Provides an integration of jQAssistant and SonarQube for reporting constraint violations as issues.
-| https://github.com/jqassistant-contrib/sonar-jqassistant-plugin[Homepage^]
-| <<jQAssistant Contrib>>
-
 |===
 
 == Organizations
 
 === jQAssistant Contrib
 
-https://github.com/jqassistant-contrib
+The `jQAssistant Contrib` organization (https://github.com/jqassistant-contrib) provides required infrastructure for the community to develop extensions including a CI enviroment and the possibility to perform releases to Maven Central.
+
+TIP: Want to create your own jQAssistant plugin but do not want to care about build infrastructure? Just create a https://github.com/jqassistant-contrib/jqassistant-contrib-common[request] and we will do the setup for you!
 
 === Kontext E GmbH
 
-https://github.com/kontext-e/jqassistant-plugins
+https://www.kontext-e.com/[Kontext E GmbH^] is a Dresden/Germany based consulting company which over the last years has provided lots of very valuable contributions for jQAssistant.
 
 === Softvis Research
 
-https://github.com/softvis-research
+The research group https://home.uni-leipzig.de/svis/[Visual Software Analytics] develops and evaluates tools for exploring complex software systems in 2D, 3D and virtual reality. We combine findings and methods from the fields of software analytics, software visualization, data science, and empirical software engineering to extract, visualize, and analyze software-related data. All tools are available as open source on https://github.com/softvis-research[GitHub^].
 
