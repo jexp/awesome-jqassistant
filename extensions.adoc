@@ -1,6 +1,6 @@
 :toc: left
 :toclevels: 4
-= jQAssistant Extension Catalog
+= jQAssistant Extensions
 
 This site lists extensions for jQAssistant which have been created and are maintained by the
 jQAsssistant community.
