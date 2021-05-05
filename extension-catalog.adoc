@@ -24,6 +24,11 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | https://github.com/jqassistant-contrib/jqassistant-apoc-plugin[Homepage]
 | <<jQAssistant Contrib>>
 
+| C#
+| Provides a scanner for C#.
+| https://github.com/softvis-research/jqa-csharp-plugin[Homepage^]
+| <<Softvis Research>>
+
 | Checkstyle
 | Provides a scanner for Checkstyle reports.
 | https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/checkstyle/src/main/asciidoc/checkstyle.adoc[Documentation^]
