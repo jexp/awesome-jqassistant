@@ -129,6 +129,11 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | https://github.com/jqassistant-contrib/jqassistant-wordcloud-report-plugin[Homepage^]
 | <<jQAssistant Contrib>>
 
+| XMI
+| Provides a scanner for XMI files (e.g. exported from Enterprise Architect) and rules to use UML models for  architecture validation.
+| https://github.com/jqassistant-contrib/jqassistant-xmi-plugin[Homepage^]
+| <<jQAssistant Contrib>>
+
 |===
 
 == Tool Integrations
