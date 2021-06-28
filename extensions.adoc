@@ -34,6 +34,11 @@ https://github.com/kontext-e/jqassistant-plugins/blob/master/asciidoc/src/main/a
 | https://github.com/kontext-e/jqassistant-plugins[Homepage^], https://github.com/kontext-e/jqassistant-plugins/blob/master/checkstyle/src/main/asciidoc/checkstyle.adoc[Documentation^]
 | <<Kontext E GmbH>>
 
+| Context Mapper
+| https://contextmapper.org/[Context Mapper] integration for jQAssistant to scan and create Context Maps to validate as-is against to-be architecture
+| https://github.com/jqassistant-contrib/jqassistant-context-mapper-plugin[Homepage^]
+| <<jQAssistant Contrib>>
+
 | Dashboard
 | Bundles the jQAssistant Dashboard (see <<Visualizations>>) as plugin.
 | https://github.com/jqassistant-contrib/jqassistant-dashboard-plugin[Homepage^]
